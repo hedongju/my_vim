@@ -1,0 +1,15 @@
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'genutils'
+Bundle 'lookupfile'
+Bundle 'taglist.vim'
+Bundle 'winmanager'
+Bundle 'a.vim'
+Bundle 'cscope.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'kien/ctrlp.vim'
+"Bundle 'Valloric/YouCompleteMe'
+"Bundle 'ctrlpvim/ctrlp.vim'
