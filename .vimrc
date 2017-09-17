@@ -327,7 +327,7 @@ autocmd VimLeave * call system("xsel -ib", getreg('+'))
 "开始使用Vundle的必须配置
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 "使用Vundle来管理Vundle
